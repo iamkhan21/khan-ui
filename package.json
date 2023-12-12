@@ -16,7 +16,7 @@
     "type-check": "tsc --noEmit",
     "build:types": "tsc --emitDeclarationOnly",
     "build:transpile": "swc ./src -d ./dist --copy-files",
-    "build:copy-package-json": "node scripts/build.js",
+    "build:copy-package-json": "node scripts/build.cjs",
     "build": "npm-run-all type-check clean build:*",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"

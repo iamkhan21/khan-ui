@@ -5,9 +5,7 @@
     "emitDecoratorMetadata": true,
     "noUnusedLocals": true,
     "pretty": true,
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "outDir": "./dist",
     "target": "ES2020",
     "jsx": "react",
@@ -18,11 +16,6 @@
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext"
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.stories.tsx", "**/*.stories.js"]
 }
