@@ -1,0 +1,38 @@
+{
+  "name": "uis",
+  "version": "1.0.0",
+  "description": "React UI components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "pretest": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "posttest": "npm run format",
+    "format": "prettier --log-level warn --write \"**/*.{ts,tsx,css,md}\"",
+    "clean": "rimraf ./dist",
+    "build:transpile": "sucrase ./src -d ./dist --transforms typescript,jsx",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:copy-package-json": "node scripts/build.js",
+    "build": "npm-run-all clean build:*",
+    "publish": "npm run build && npm publish dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.43",
+    "@types/react-dom": "18.2.17",
+    "npm-run-all": "4.1.5",
+    "prettier": "3.1.1",
+    "rimraf": "5.0.5",
+    "sucrase": "3.34.0",
+    "typescript": "5.3.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
