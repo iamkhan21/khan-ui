@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.1
+
+[compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.2.0...v1.2.1)
+
+### 🏡 Chore
+
+- Add import to barrel file ([a8b784b](https://github.com/iamkhan21/khan-ui/commit/a8b784b))
+
+### ❤️ Contributors
+
+- Ivan Khanevich <mail@iamkhan.tech>
+
 ## v1.2.0
 
 [compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.1.1...v1.2.0)
