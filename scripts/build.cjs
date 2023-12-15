@@ -10,7 +10,6 @@ function createPackageJson() {
 		name: packageJson.name,
 		description: packageJson.description,
 		version: packageJson.version,
-		type: packageJson.type,
 		main: "index.js",
 		types: "index.d.ts",
 		license: packageJson.license,
