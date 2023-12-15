@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.2
+
+[compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.2.1...v1.2.2)
+
+### 🩹 Fixes
+
+- Remove type property from published package.json ([7e0053f](https://github.com/iamkhan21/khan-ui/commit/7e0053f))
+
+### ❤️ Contributors
+
+- Ivan Khanevich <mail@iamkhan.tech>
+
 ## v1.2.1
 
 [compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.2.0...v1.2.1)
