@@ -23,7 +23,7 @@
     "build:types": "tsc --emitDeclarationOnly",
     "clean": "rimraf ./dist",
     "format": "biome format --write .",
-    "lint": "biome lint .",
+    "lint": "biome lint ./src",
     "lint:fix": "biome check --apply-unsafe ./src",
     "posttest": "npm run format",
     "pretest": "tsc --noEmit",
