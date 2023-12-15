@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.1.1...v1.2.0)
+
+### 🚀 Enhancements
+
+- Add different management libraries ([aaa78ef](https://github.com/iamkhan21/khan-ui/commit/aaa78ef))
+
+### 🏡 Chore
+
+- Fix lint script ([8f4931e](https://github.com/iamkhan21/khan-ui/commit/8f4931e))
+
+### ❤️ Contributors
+
+- Ivan Khanevich <mail@iamkhan.tech>
+
 ## v1.1.1
 
 [compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.1.0...v1.1.1)
