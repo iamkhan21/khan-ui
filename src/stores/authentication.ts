@@ -7,7 +7,7 @@ export type User = {
 	email: string;
 };
 
-const $user = persistentAtom<User | null>("user", null, {
+const $user = persistentAtom<User | null>("user-profile", null, {
 	encode: JSON.stringify,
 	decode: JSON.parse,
 });
