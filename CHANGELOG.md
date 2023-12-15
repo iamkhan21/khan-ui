@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.4
+
+[compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.2.3...v1.2.4)
+
+### 🏡 Chore
+
+- Improve imports ([47aec2c](https://github.com/iamkhan21/khan-ui/commit/47aec2c))
+
+### ❤️ Contributors
+
+- Ivan Khanevich <mail@iamkhan.tech>
+
 ## v1.2.3
 
 [compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.2.2...v1.2.3)
