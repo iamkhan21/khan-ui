@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.3
+
+[compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.2.2...v1.2.3)
+
+### 🏡 Chore
+
+- Remove redundant dependencies and excessive code ([73c72a8](https://github.com/iamkhan21/khan-ui/commit/73c72a8))
+
+### ❤️ Contributors
+
+- Ivan Khanevich <mail@iamkhan.tech>
+
 ## v1.2.2
 
 [compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.2.1...v1.2.2)
