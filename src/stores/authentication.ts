@@ -1,7 +1,5 @@
 import { persistentAtom } from "@nanostores/persistent";
 import { useStore } from "@nanostores/react";
-import { atom, useAtom } from "jotai";
-import { create } from "zustand";
 
 export type User = {
 	id: string;
@@ -25,23 +23,3 @@ export const logOut = () => {
 export const useUser = () => {
 	return useStore($user);
 };
-
-// -------------- Jotai --------------
-
-const priceAtom = atom(10);
-
-export const usePrice = () => {
-	return useAtom(priceAtom);
-};
-
-// -------------- Zustand --------------
-
-type Store = {
-	count: number;
-	inc: () => void;
-};
-
-export const useBear = create<Store>()((set) => ({
-	count: 1,
-	inc: () => set((state) => ({ count: state.count + 1 })),
-}));
