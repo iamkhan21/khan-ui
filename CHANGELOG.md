@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.1.0...v1.1.1)
+
+### 🏡 Chore
+
+- Rename user key ([875afc6](https://github.com/iamkhan21/khan-ui/commit/875afc6))
+
+### ❤️ Contributors
+
+- Ivan Khanevich <mail@iamkhan.tech>
+
 ## v1.1.0
 
 [compare changes](https://github.com/iamkhan21/khan-ui/compare/v1.0.3...v1.1.0)
