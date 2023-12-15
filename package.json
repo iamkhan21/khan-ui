@@ -29,7 +29,7 @@
     "pretest": "tsc --noEmit",
     "release": "run-s release:lint release:changelog build release:publish release:push",
     "release:changelog": "changelogen --release",
-    "release:lint": "npm run lint:fix",
+    "release:lint": "npm run lint",
     "release:publish": "cd dist && npm publish",
     "release:push": "git push --follow-tags",
     "storybook:build": "storybook build",
@@ -41,9 +41,11 @@
   "dependencies": {
     "@nanostores/persistent": "0.9.1",
     "@nanostores/react": "0.7.1",
+    "jotai": "2.6.0",
     "nanostores": "0.9.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "zustand": "4.4.7"
   },
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
