@@ -19,12 +19,12 @@ function createPackageJson() {
 		homepage: packageJson.homepage,
 		repository: packageJson.repository,
 		bugs: packageJson.bugs,
-		dependencies: packageJson.dependencies
+		dependencies: packageJson.dependencies,
 	};
 
 	fs.writeFileSync(
 		path.join(distPath, "package.json"),
-		JSON.stringify(distPackageJson, null, 2)
+		JSON.stringify(distPackageJson, null, 2),
 	);
 }
 
