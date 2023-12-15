@@ -1,7 +1,6 @@
-// Exporting components
 export { default as Button } from "./components/Button";
+export * from "./components/Button";
 
-// Exporting utilities
-export { formatDate } from "./utils/formatDate";
+export * from "./utils/formatDate";
 
 export * from "./stores/authentication";

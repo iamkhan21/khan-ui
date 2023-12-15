@@ -1,6 +1,6 @@
 import React, { type ButtonHTMLAttributes } from "react";
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
 	Partial<{
 		/**
 		 * What is the variant of the button?
